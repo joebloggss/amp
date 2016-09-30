@@ -72,7 +72,7 @@
 <meta content='https://2.bp.blogspot.com/-a-3w6wGXqJE/V-x_NdC7ojI/AAAAAAAAn_g/-YfOdP0rYmcDJva0WM-jJf6v3oI6pKGdwCLcB/s600/logo-kd.png' property='og:image'/>
 </b:if>
 </b:if>
-<meta content='a__g5VjHWU8XH91MdI3akyQ8tbjpVXKQ6RD8u9loi6Y' name='google-site-verification'/>
+<meta content='xxxxxxxx' name='google-site-verification'/>
 <meta content='321607401507929' property='fb:admins'/>
 <meta content='321607401507929' property='fb:profile_id'/>
 <meta content='Joe Bloggs' name='Author'/>
@@ -1183,7 +1183,7 @@ padding:5px 0 5px 2px;border-radius:0 3px 3px 0}
 .post-body a:active{position:relative;top:1px;left:1px}
 .post-body a[href^="http://"],.post-body a[href^="https://"]{font-weight:500;color:#e8554e}
 .post-body a[href^="http://"]:after,.post-body a[href^="https://"]:after{content:'';background:url(https://1.bp.blogspot.com/-2iZ1bAZR7Es/V-y64CukndI/AAAAAAAAoAg/f-ZzunndUuIMDuNkOwIbRCcWB2zX7rrVgCLcB/s1600/ic_launch_black_24dp_1x.png)no-repeat;background-size: 18px 18px;width:18px;height:18px;display:inline-block;margin-left:5px;vertical-align:middle}
-.post-body .separator a:after,.post-body a[href^="https://acceleratedmobilepages-amp.blogspot.com/"]:after,.post-body a[href^="https://twitter.com/intent/tweet"]:after{content:'';background:none;width:0;height:0;margin-left:0}
+.post-body .separator a:after,.post-body a[href^="/"]:after,.post-body a[href^="https://twitter.com/intent/tweet"]:after{content:'';background:none;width:0;height:0;margin-left:0}
 .post-body .separator img{width:auto;max-width:100%;height:auto}
 .post-body h2{font-size:23px;font-size:1.4375rem;margin:15px 0}
 .post-body h3{font-size:19px;font-size:1.1875rem;font-weight: 900;color:#333;margin:15px 0;}
@@ -1453,7 +1453,7 @@ padding:5px 0 5px 2px;border-radius:0 3px 3px 0}
 .post-body a:active{position:relative;top:1px;left:1px}
 .post-body a[href^="http://"],.post-body a[href^="https://"]{font-weight:500;color:#e8554e}
 .post-body a[href^="http://"]:after,.post-body a[href^="https://"]:after{content:'';background:url(https://1.bp.blogspot.com/-2iZ1bAZR7Es/V-y64CukndI/AAAAAAAAoAg/f-ZzunndUuIMDuNkOwIbRCcWB2zX7rrVgCLcB/s1600/ic_launch_black_24dp_1x.png)no-repeat;background-size: 18px 18px;width:18px;height:18px;display:inline-block;margin-left:5px;vertical-align:middle}
-.post-body .separator a:after,.post-body a[href^="https://acceleratedmobilepages-amp.blogspot.com/"]:after,.post-body a[href^="https://twitter.com/intent/tweet"]:after{content:'';background:none;width:0;height:0;margin-left:0}
+.post-body .separator a:after,.post-body a[href^="/"]:after,.post-body a[href^="https://twitter.com/intent/tweet"]:after{content:'';background:none;width:0;height:0;margin-left:0}
 .post-body .separator img{width:auto;max-width:100%;height:auto}
 .post-body h2{font-size:23px;font-size:1.4375rem;margin:15px 0}
 .post-body h3{font-size:19px;font-size:1.1875rem;font-weight: 900;color:#333;margin:15px 0;}
@@ -1655,7 +1655,7 @@ h3.date-header,.postmeta{font-size:16px;font-weight:400;padding:0;margin:20px 0 
 .post-body a:active{position:relative;top:1px;left:1px}
 .post-body a[href^="http://"],.post-body a[href^="https://"]{font-weight:500;color:#e8554e}
 .post-body a[href^="http://"]:after,.post-body a[href^="https://"]:after{content:'\f08e';font-family:FontAwesome;color:#e8554e;margin-left:5px}
-.post-body .separator a:after,.post-body a[href^="https://acceleratedmobilepages-amp.blogspot.com/"]:after,.post-body a[href^="https://twitter.com/intent/tweet"]:after{content:'';margin-left:0}
+.post-body .separator a:after,.post-body a[href^="/"]:after,.post-body a[href^="https://twitter.com/intent/tweet"]:after{content:'';margin-left:0}
 .post-body .separator img{width:auto;max-width:100%;height:auto}
 .post-body h2{font-size:23px;font-size:1.4375rem;margin:15px 0}
 .post-body h3{font-size:19px;font-size:1.1875rem;font-weight: 900;color:#333;margin:15px 0;}
@@ -1832,7 +1832,7 @@ h3.date-header,.postmeta{font-size:16px;font-weight:400;padding:0;margin:20px 0 
 .post-body a:active{position:relative;top:1px;left:1px}
 .post-body a[href^="http://"],.post-body a[href^="https://"]{font-weight:500;color:#e8554e}
 .post-body a[href^="http://"]:after,.post-body a[href^="https://"]:after{content:'\f08e';font-family:FontAwesome;color:#e8554e;margin-left:5px}
-.post-body .separator a:after,.post-body a[href^="https://acceleratedmobilepages-amp.blogspot.com/"]:after,.post-body a[href^="https://twitter.com/intent/tweet"]:after{content:'';margin-left:0}
+.post-body .separator a:after,.post-body a[href^="/"]:after,.post-body a[href^="https://twitter.com/intent/tweet"]:after{content:'';margin-left:0}
 .post-body .separator img{width:auto;max-width:100%;height:auto}
 .post-body h2{font-size:23px;font-size:1.4375rem;margin:15px 0}
 .post-body h3{font-size:19px;font-size:1.1875rem;font-weight: 900;color:#333;margin:15px 0;}
@@ -1964,17 +1964,17 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
 <nav>
     <ul>
       <li><a href='/'>Home</a></li>
-      <li><a href='https://acceleratedmobilepages-amp.blogspot.com/p/about.html' itemprop='url' title='About'>About</a></li>
-      <li><a href='https://acceleratedmobilepages-amp.blogspot.com/p/contact.html' itemprop='url' title='Contact'>Contact</a></li>
-      <li><a href='https://acceleratedmobilepages-amp.blogspot.com/p/privacy.html' itemprop='url' title='Privacy'>Privacy</a></li>
-      <li><a href='https://acceleratedmobilepages-amp.blogspot.com/p/sitemap.html' itemprop='url' title='Sitemap'>Sitemap</a></li>
+      <li><a href='/p/about.html' itemprop='url' title='About'>About</a></li>
+      <li><a href='/p/contact.html' itemprop='url' title='Contact'>Contact</a></li>
+      <li><a href='/p/privacy.html' itemprop='url' title='Privacy'>Privacy</a></li>
+      <li><a href='/p/sitemap.html' itemprop='url' title='Sitemap'>Sitemap</a></li>
       <li>
 <div class='search-wrapper'>
 <div id='search-box'>
 <div itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/WebSite'>
-<meta content='https://acceleratedmobilepages-amp.blogspot.com/' itemprop='url'/>
-  <form action='https://acceleratedmobilepages-amp.blogspot.com/search' itemprop='potentialAction' itemscope='itemscope' itemtype='http://schema.org/SearchAction' method='get' target='_blank'>
-<meta content='https://acceleratedmobilepages-amp.blogspot.com/search?q={q}' itemprop='target'/>
+<meta content='/' itemprop='url'/>
+  <form action='/search' itemprop='potentialAction' itemscope='itemscope' itemtype='http://schema.org/SearchAction' method='get' target='_blank'>
+<meta content='/search?q={q}' itemprop='target'/>
 <input class='search-form' id='feed-q-input' itemprop='query-input' name='q' placeholder='Search' required='required' type='text'/>
 <button class='search-button' title='Search' type='submit'><i class='material-icons'>&#59574;</i></button>
   </form></div>
@@ -2025,10 +2025,10 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
 <div class='mobile-hide'>
 <nav class='page-menu' itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement'>
  <ul>
-   <li><a href='https://acceleratedmobilepages-amp.blogspot.com/p/about.html' itemprop='url' title='About'><span itemprop='name'>About</span></a></li>
-   <li><a href='https://acceleratedmobilepages-amp.blogspot.com/p/contact.html' itemprop='url' title='Contact'><span itemprop='name'>Contact</span></a></li>
-   <li><a href='https://acceleratedmobilepages-amp.blogspot.com/p/privacy.html' itemprop='url' title='Privacy'><span itemprop='name'>Privacy</span></a></li>
-   <li><a href='https://acceleratedmobilepages-amp.blogspot.com/p/sitemap.html' itemprop='url' title='Sitemap'><span itemprop='name'>Sitemap</span></a></li>
+   <li><a href='/p/about.html' itemprop='url' title='About'><span itemprop='name'>About</span></a></li>
+   <li><a href='/p/contact.html' itemprop='url' title='Contact'><span itemprop='name'>Contact</span></a></li>
+   <li><a href='/p/privacy.html' itemprop='url' title='Privacy'><span itemprop='name'>Privacy</span></a></li>
+   <li><a href='/p/sitemap.html' itemprop='url' title='Sitemap'><span itemprop='name'>Sitemap</span></a></li>
     </ul>
 <div class='clear'/>
 </nav>
@@ -2036,9 +2036,9 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
 <div class='search-wrapper'>
 <div id='search-box'>
 <div itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/WebSite'>
-<meta content='https://acceleratedmobilepages-amp.blogspot.com/' itemprop='url'/>
-  <form action='https://acceleratedmobilepages-amp.blogspot.com/search' itemprop='potentialAction' itemscope='itemscope' itemtype='http://schema.org/SearchAction' method='get' target='_blank'>
-<meta content='https://acceleratedmobilepages-amp.blogspot.com/search?q={q}' itemprop='target'/>
+<meta content='/' itemprop='url'/>
+  <form action='/search' itemprop='potentialAction' itemscope='itemscope' itemtype='http://schema.org/SearchAction' method='get' target='_blank'>
+<meta content='/search?q={q}' itemprop='target'/>
 <input class='search-form' id='feed-q-input' itemprop='query-input' name='q' placeholder='Search' required='required' type='text'/>
 <button class='search-button' title='Search' type='submit'><i class='material-icons'>&#59574;</i></button>
   </form></div>
@@ -3362,7 +3362,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
 <div class='content-wrapper'>
 <div class='credit'>
 Copyright &#169; <span itemprop='copyrightYear'>2016</span> <span itemprop='copyrightHolder' itemscope='itemscope' itemtype='https://schema.org/Organization'><a expr:href='data:blog.homepageUrl' expr:title='data:blog.title' itemprop='url'><span itemprop='name'><data:blog.title/></span></a></span>
-<div class='credit-right'>Created by <a href='https://acceleratedmobilepages-amp.blogspot.com/' title='Accelerated Mobile Pages (AMP)'>Accelerated Mobile Pages (AMP)</a> Proudly powered by <a href='//www.blogger.com' title='Blogger'>Blogger</a></div>
+<div class='credit-right'>Created by <a href='/' title='Accelerated Mobile Pages (AMP)'>Accelerated Mobile Pages (AMP)</a> Proudly powered by <a href='//www.blogger.com' title='Blogger'>Blogger</a></div>
 <div class='clear'/>
 </div>
 </div>
