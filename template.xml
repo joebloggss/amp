@@ -2421,7 +2421,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
 </b:includable>
               <b:includable id='disqus-comments' var='post'>
 <div class='disqus-comments' id='disqus_comments'>
-<amp-iframe expr:src='&quot;https://cdn.rawgit.com/joebloggss/amp/master/disqus_amp2.html?shortname=joe_bloggs_disqus&amp;url=&quot; + data:blog.canonicalUrl' frameborder='0' height='300' layout='responsive' resizable='resizable' sandbox='allow-scripts allow-same-origin allow-modals allow-popups' width='600'>
+<amp-iframe expr:src='&quot;https://cdn.rawgit.com/joebloggss/amp/master/disqus_amp2.html?shortname=joe-bloggs&amp;url=&quot; + data:blog.canonicalUrl' frameborder='0' height='300' layout='responsive' resizable='resizable' sandbox='allow-scripts allow-same-origin allow-modals allow-popups' width='600'>
 <div aria-label='Disqus Comments' overflow='' role='button' tabindex='0'>Disqus Comments</div>
 </amp-iframe>
                 </div>
