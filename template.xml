@@ -5479,7 +5479,130 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
 <div itemprop='mainEntity' itemscope='itemscope' itemtype='https://schema.org/WPSideBar'>
 <aside id='sidebar-kanan'>
 <div id='sidebar-wrapper'>
-        <b:section class='sidebar' id='sidebar' preferred='yes'/>
+        <b:section class='sidebar' id='sidebar' preferred='yes'>
+          <b:widget id='FeaturedPost1' locked='false' title='Featured Post' type='FeaturedPost' version='1' visible='true'>
+            <b:includable id='main'>
+  <!-- Only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <b:include name='content'/>
+</b:includable>
+            <b:includable id='content'>
+  <div class='post-summary'>
+    <b:if cond='data:showFirstImage and data:postFirstImage != &quot;&quot;'>
+<amp-img class='image' expr:alt='data:post.title' expr:src='data:postFirstImage' expr:title='data:post.title' height='180' layout='responsive' width='300'/>
+<b:else/>
+<amp-img expr:alt='data:post.title' expr:title='data:post.title' height='180' layout='responsive' src='https://blog.keycdn.com/blog/wp-content/uploads/2016/03/accelerated-mobile-pages.png' width='300'/>
+    </b:if>
+    <b:if cond='data:showPostTitle and data:postTitle != &quot;&quot;'>
+      <h3><a expr:href='data:postUrl'><data:postTitle/></a></h3>
+    </b:if>
+    <b:if cond='data:showSnippet and data:postSummary != &quot;&quot;'>
+      <p>
+        <data:postSummary/>
+      </p>
+    </b:if>
+  </div>
+</b:includable>
+          </b:widget>
+          <b:widget id='HTML5' locked='false' title='' type='HTML' version='1' visible='true'>
+            <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+          </b:widget>
+          <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts' version='1' visible='true'>
+            <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content popular-posts'>
+    <ul>
+      <b:loop values='data:posts' var='post'>
+      <li>
+        <b:if cond='!data:showThumbnails'>
+          <b:if cond='!data:showSnippets'>
+            <!-- (1) No snippet/thumbnail -->
+            <a expr:href='data:post.href'><data:post.title/></a>
+          <b:else/>
+            <!-- (2) Show only snippets -->
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <div class='item-snippet'><data:post.snippet/></div>
+          </b:if>
+        <b:else/>
+          <!-- (3) Show only thumbnails or (4) Snippets and thumbnails. -->
+          <div expr:class='data:showSnippets ? &quot;item-content&quot; : &quot;item-thumbnail-only&quot;'>
+            <b:if cond='data:post.featuredImage.isResizable or data:post.thumbnail'>
+              <div class='item-thumbnail'>
+                <a expr:href='data:post.href' target='_blank'>
+                  <b:with value='data:post.featuredImage.isResizable? resizeImage(data:post.featuredImage, 100) : data:post.thumbnail' var='image'>
+                    <amp-img expr:alt='data:post.title' expr:src='data:image' expr:title='data:post.title' height='70' width='100'/> 
+                  </b:with>
+                </a>
+              </div>
+              <b:else/>
+              <div class='item-thumbnail'>
+                <a expr:href='data:post.href' target='_blank'>
+              <amp-img expr:alt='data:post.title' expr:title='data:post.title' height='70' src='https://blog.keycdn.com/blog/wp-content/uploads/2016/03/accelerated-mobile-pages.png' width='100'/>
+                </a>
+              </div>
+            </b:if>
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <b:if cond='data:showSnippets'>
+              <div class='item-snippet'><data:post.snippet/></div>
+            </b:if>
+          </div>
+          <div class='clear'/>
+        </b:if>
+      </li>
+      </b:loop>
+    </ul>
+  </div>
+</b:includable>
+          </b:widget>
+          <b:widget id='Label1' locked='false' title='Labels' type='Label' version='1' visible='true'>
+            <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2><data:title/></h2>
+  </b:if>
+  <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
+    <b:if cond='data:display == &quot;list&quot;'>
+      <ul class='label-show'>
+        <b:loop values='data:labels' var='label'>
+          <li>
+            <b:if cond='data:blog.url == data:label.url'>
+              <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+            <b:else/>
+              <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/><span class='label-count' dir='ltr'><data:label.count/></span></a>
+            </b:if>
+            <b:if cond='data:showFreqNumbers'>
+              <span dir='ltr'>(<data:label.count/>)</span>
+            </b:if>
+          </li>
+        </b:loop>
+      </ul>
+    <b:else/>
+      <b:loop values='data:labels' var='label'>
+        <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
+          <b:if cond='data:blog.url == data:label.url'>
+            <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+          <b:else/>
+            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+          </b:if>
+          <b:if cond='data:showFreqNumbers'>
+            <span class='label-count' dir='ltr'>(<data:label.count/>)</span>
+          </b:if>
+        </span>
+      </b:loop>
+    </b:if>
+  </div>
+</b:includable>
+          </b:widget>
+        </b:section>
       </div>
 <div class='clear'/>
 </aside>
