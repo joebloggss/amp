@@ -4267,6 +4267,9 @@ h3.date-header,.postmeta{font-size:16px;font-weight:400;padding:0;margin:20px 0 
 <script async='async' custom-element='amp-sidebar' src='https://cdn.ampproject.org/v0/amp-sidebar-0.1.js'/>
 <script async='async' custom-element='amp-form' src='https://cdn.ampproject.org/v0/amp-form-0.1.js'/>
 <script async='async' custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'/>
+<script async='async' custom-element='amp-list' src='https://cdn.ampproject.org/v0/amp-list-0.1.js'/>
+<script async='async' custom-template='amp-mustache' src='https://cdn.ampproject.org/v0/amp-mustache-0.1.js'/>
+<script async='async' custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'/>
 &lt;/head&gt;&lt;!--<head/>--&gt;
 <body itemscope='itemscope' itemtype='http://schema.org/WebPage'>
 <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
@@ -5151,7 +5154,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
     </div>
 
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
-<h2 class='sharetitle'>Share this:</h2> 
+<h2 class='sharetitle'></h2> 
 <div class='clear'/>
 <b:include data='post' name='share-tool'/>
 <div class='clear'/>
