@@ -5161,7 +5161,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
     </div>
 
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
-<h2 class='sharetitle'></h2> 
+<h2 class='sharetitle'/> 
 <div class='clear'/>
 <b:include data='post' name='share-tool'/>
 <div class='clear'/>
@@ -5513,17 +5513,6 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
   </div>
 </b:includable>
           </b:widget>
-          <b:widget id='HTML5' locked='false' title='' type='HTML' version='1' visible='true'>
-            <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-</b:includable>
-          </b:widget>
           <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts' version='1' visible='true'>
             <b:includable id='main'>
   <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
@@ -5609,6 +5598,17 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
   </div>
 </b:includable>
           </b:widget>
+          <b:widget id='HTML5' locked='false' title='' type='HTML' version='1' visible='true'>
+            <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+          </b:widget>
         </b:section>
       </div>
 <div class='clear'/>
@@ -5625,10 +5625,58 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
 <footer itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/WPFooter'>
 <div id='footer-wrapper'>
 <div class='content-wrapper'>
-<b:section class='footer' id='footer1' preferred='yes'/>
-<b:section class='footer' id='footer2' preferred='yes'/>
-<b:section class='footer' id='footer3' preferred='yes'/>
-<b:section class='footer' id='footer4' preferred='yes'/>
+<b:section class='footer' id='footer1' preferred='yes'>
+  <b:widget id='HTML1' locked='false' title='' type='HTML' version='1' visible='true'>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+  </b:widget>
+</b:section>
+<b:section class='footer' id='footer2' preferred='yes'>
+  <b:widget id='HTML2' locked='false' title='' type='HTML' version='1' visible='true'>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+  </b:widget>
+</b:section>
+<b:section class='footer' id='footer3' preferred='yes'>
+  <b:widget id='HTML3' locked='false' title='' type='HTML' version='1' visible='true'>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+  </b:widget>
+</b:section>
+<b:section class='footer' id='footer4' preferred='yes'>
+  <b:widget id='HTML4' locked='false' title='' type='HTML' version='1' visible='true'>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+  </b:widget>
+</b:section>
 </div>
 <div class='clear'/>
 </div>
