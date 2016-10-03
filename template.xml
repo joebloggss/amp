@@ -4295,6 +4295,11 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
 30%{color:rgba(0,0,0,.5);filter:blur(1px)}
 65%{color:rgba(0,0,0,.2);filter:blur(5px)}
 }
+
+.thanks_layout{text-align: center; position: fixed; top:0; left:0; bottom:0; right:0; background:rgba(0,0,0,.8);z-index:99999}
+.thanks_message{width:50%;background:#fff;border-radius:5px;padding:20px;border:1px solid transparent;text-align: center; color:#333; position: absolute; top: 10%; left: 50%;margin-left:-25%;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+@media screen and (max-width:768px){.thanks_message{width:90%!important;margin-left:-45%!important;}
+}
 /*]]>*/
 </style>
 <div id='error-page'> 
@@ -4315,6 +4320,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
       <li><a href='/p/about.html' itemprop='url' title='About'>About</a></li>
       <li><a href='/p/contact.html' itemprop='url' title='Contact'>Contact</a></li>
       <li><a href='/p/privacy.html' itemprop='url' title='Privacy'>Privacy</a></li>
+      <li><a href='/p/disclaimer.html' itemprop='url' title='Disclaimer'>Disclaimer</a></li>
       <li><a href='/p/sitemap.html' itemprop='url' title='Sitemap'>Sitemap</a></li>
     </ul>
   </nav>
@@ -4362,6 +4368,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
    <li><a href='/p/about.html' itemprop='url' title='About'><span itemprop='name'>About</span></a></li>
    <li><a href='/p/contact.html' itemprop='url' title='Contact'><span itemprop='name'>Contact</span></a></li>
    <li><a href='/p/privacy.html' itemprop='url' title='Privacy'><span itemprop='name'>Privacy</span></a></li>
+   <li><a href='/p/disclaimer.html' itemprop='url' title='Disclaimer'><span itemprop='name'>Disclaimer</span></a></li>
    <li><a href='/p/sitemap.html' itemprop='url' title='Sitemap'><span itemprop='name'>Sitemap</span></a></li>
     </ul>
 <div class='clear'/>
