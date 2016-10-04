@@ -69,12 +69,12 @@
 <b:if cond='data:blog.postImageThumbnailUrl'>
 <meta expr:content='data:blog.postThumbnailUrl' property='og:image'/>
 <b:else/>
-<meta content='https://2.bp.blogspot.com/-a-3w6wGXqJE/V-x_NdC7ojI/AAAAAAAAn_g/-YfOdP0rYmcDJva0WM-jJf6v3oI6pKGdwCLcB/s600/logo-kd.png' property='og:image'/>
+<meta content='https://cdn.rawgit.com/joebloggss/amp/master/zamp1.png' property='og:image'/>
 </b:if>
 </b:if>
 <meta content='xxxxxxxx' name='google-site-verification'/>
 <meta content='321607401507929' property='fb:admins'/>
-<meta content='321607401507929' property='fb:profile_id'/>
+<meta content='100012987915346' property='fb:profile_id'/>
 <meta content='Joe Bloggs' name='Author'/>
 <meta content='https://www.facebook.com/joeblogspoters' property='article:author'/>
 <meta expr:content='data:blog.title' name='twitter:site'/>
@@ -670,7 +670,7 @@ amp-sidebar button{margin-left:20px}
 
 #footer-wrapper{background:#36D7B7;border-top:1px solid #ddd;border-bottom:1px solid #ddd;width:100%;margin-top:50px;padding:20px 0 30px;}
 #footer1{width:40%;padding:30px 30px 10px 0;display:inline;float:left;color:#141924;font-size:14px;font-weight:300;line-height:1.6em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
-#footer2,#footer3,#footer4{width:20%;padding:30px 0 10px 30px;display:inline;float:left;color:#ccc;font-size:14px;font-weight:300;line-height:1.6em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+#footer2,#footer3,#footer4{width:20%;padding:30px 0 10px 30px;display:inline;float:left;color:#141924;font-size:14px;font-weight:300;line-height:1.6em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
 #footer1 h2,#footer2 h2,#footer3 h2,#footer4 h2{font-size:16px;font-weight:700;color:#141924;margin:0}
 #footer1 ul,#footer2 ul,#footer3 ul,#footer4 ul{list-style:none;padding:0;margin:5px 0}
 #footer-wrapper p{margin:0}
@@ -1378,7 +1378,7 @@ amp-sidebar button{margin-left:20px}
 /*Footer*/
 #footer-wrapper{background:#fafafa;border-top:1px solid #ddd;border-bottom:1px solid #ddd;width:100%;margin-top:50px;padding:20px 0 30px;}
 #footer1{width:40%;padding:30px 30px 10px 0;display:inline;float:left;color:#141924;font-size:14px;font-weight:300;line-height:1.6em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
-#footer2,#footer3,#footer4{width:20%;padding:30px 0 10px 30px;display:inline;float:left;color:#ccc;font-size:14px;font-weight:300;line-height:1.6em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+#footer2,#footer3,#footer4{width:20%;padding:30px 0 10px 30px;display:inline;float:left;color:#141924;font-size:14px;font-weight:300;line-height:1.6em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
 #footer1 h2,#footer2 h2,#footer3 h2,#footer4 h2{font-size:16px;font-weight:700;color:#141924;margin:0}
 #footer1 ul,#footer2 ul,#footer3 ul,#footer4 ul{list-style:none;padding:0;margin:5px 0}
 #footer-wrapper p{margin:0}
@@ -4267,9 +4267,6 @@ h3.date-header,.postmeta{font-size:16px;font-weight:400;padding:0;margin:20px 0 
 <script async='async' custom-element='amp-sidebar' src='https://cdn.ampproject.org/v0/amp-sidebar-0.1.js'/>
 <script async='async' custom-element='amp-form' src='https://cdn.ampproject.org/v0/amp-form-0.1.js'/>
 <script async='async' custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'/>
-<script async='async' custom-element='amp-list' src='https://cdn.ampproject.org/v0/amp-list-0.1.js'/>
-<script async='async' custom-template='amp-mustache' src='https://cdn.ampproject.org/v0/amp-mustache-0.1.js'/>
-<script async='async' custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'/>
 &lt;/head&gt;&lt;!--<head/>--&gt;
 <body itemscope='itemscope' itemtype='http://schema.org/WebPage'>
 <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
@@ -5068,7 +5065,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
     </b:if>
   <div itemprop='publisher' itemscope='itemscope' itemtype='https://schema.org/Organization'>
     <div itemprop='logo' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
-      <meta content='https://2.bp.blogspot.com/-z_neu_jdmF4/VbVr4STl7mI/AAAAAAAAhiQ/-ykM7LgN2Es/s600/logo-ka.png' itemprop='url'/>
+      <meta content='https://cdn.rawgit.com/joebloggss/amp/master/zamp1.png' itemprop='url'/>
       <meta content='600' itemprop='width'/>
       <meta content='600' itemprop='height'/>
     </div>
@@ -5500,7 +5497,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
     <b:if cond='data:showFirstImage and data:postFirstImage != &quot;&quot;'>
 <amp-img class='image' expr:alt='data:post.title' expr:src='data:postFirstImage' expr:title='data:post.title' height='180' layout='responsive' width='300'/>
 <b:else/>
-<amp-img expr:alt='data:post.title' expr:title='data:post.title' height='180' layout='responsive' src='https://blog.keycdn.com/blog/wp-content/uploads/2016/03/accelerated-mobile-pages.png' width='300'/>
+<amp-img expr:alt='data:post.title' expr:title='data:post.title' height='180' layout='responsive' src='https://cdn.rawgit.com/joebloggss/amp/master/zamp1.png' width='300'/>
     </b:if>
     <b:if cond='data:showPostTitle and data:postTitle != &quot;&quot;'>
       <h3><a expr:href='data:postUrl'><data:postTitle/></a></h3>
@@ -5543,7 +5540,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
               <b:else/>
               <div class='item-thumbnail'>
                 <a expr:href='data:post.href' target='_blank'>
-              <amp-img expr:alt='data:post.title' expr:title='data:post.title' height='70' src='https://blog.keycdn.com/blog/wp-content/uploads/2016/03/accelerated-mobile-pages.png' width='100'/>
+              <amp-img expr:alt='data:post.title' expr:title='data:post.title' height='70' src='https://cdn.rawgit.com/joebloggss/amp/master/zamp1.png' width='100'/>
                 </a>
               </div>
             </b:if>
