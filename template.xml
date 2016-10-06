@@ -4267,8 +4267,26 @@ h3.date-header,.postmeta{font-size:16px;font-weight:400;padding:0;margin:20px 0 
 <script async='async' custom-element='amp-sidebar' src='https://cdn.ampproject.org/v0/amp-sidebar-0.1.js'/>
 <script async='async' custom-element='amp-form' src='https://cdn.ampproject.org/v0/amp-form-0.1.js'/>
 <script async='async' custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'/>
+<script async='async' custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'/>
+<script async='async' custom-element='amp-iframe' src='https://cdn.ampproject.org/v0/amp-iframe-0.1.js'/>
+<script async='async' custom-element='amp-analytics' src='https://cdn.ampproject.org/v0/amp-analytics-0.1.js'/>
 &lt;/head&gt;&lt;!--<head/>--&gt;
 <body itemscope='itemscope' itemtype='http://schema.org/WebPage'>
+<amp-analytics id='analytics1' type='googleanalytics'>
+<script type='application/json'>
+{
+  &quot;vars&quot;: {
+    &quot;account&quot;: &quot;UA-XXXXX-Y&quot;
+  },
+  &quot;triggers&quot;: {
+    &quot;trackPageview&quot;: {
+      &quot;on&quot;: &quot;visible&quot;,
+      &quot;request&quot;: &quot;pageview&quot;
+    }
+  }
+}
+</script>
+</amp-analytics>
 <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
 <style scoped='scoped' type='text/css'>
 /*<![CDATA[*/
@@ -4330,7 +4348,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
     <header itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/WPHeader'>
 <div id='header-wrapper'>
       <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
-        <b:widget id='Header1' locked='true' title='Accelerated Mobile Pages (AMP) (Header)' type='Header' version='1' visible='true'>
+        <b:widget id='Header1' locked='true' title='Forex Managed Accounts (Header)' type='Header' version='1' visible='true'>
           <b:includable id='main'>
     <div id='header-inner'>
       <div class='titlewrapper'>
@@ -5058,7 +5076,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
   </div>
 <b:else/>
 <div itemprop='image' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
-  <meta content='https://3.bp.blogspot.com/-x_mMtgFf6XE/VlhLxwdLekI/AAAAAAAAj3c/N7fRz1lbMSg/s1600/no-thumbnail.jpg' itemprop='url'/>
+  <meta content='https://cdn.rawgit.com/joebloggss/amp/master/zamp1.png' itemprop='url'/>
   <meta content='700' itemprop='width'/>
   <meta content='700' itemprop='height'/>
   </div>
@@ -5484,76 +5502,25 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
 <aside id='sidebar-kanan'>
 <div id='sidebar-wrapper'>
         <b:section class='sidebar' id='sidebar' preferred='yes'>
-          <b:widget id='FeaturedPost1' locked='false' title='Featured Post' type='FeaturedPost' version='1' visible='true'>
+          <b:widget id='HTML5' locked='false' title='Affiliate' type='HTML' version='1' visible='true'>
             <b:includable id='main'>
-  <!-- Only display title if it's non-empty -->
+  <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
     <h2 class='title'><data:title/></h2>
   </b:if>
-  <b:include name='content'/>
-</b:includable>
-            <b:includable id='content'>
-  <div class='post-summary'>
-    <b:if cond='data:showFirstImage and data:postFirstImage != &quot;&quot;'>
-<amp-img class='image' expr:alt='data:post.title' expr:src='data:postFirstImage' expr:title='data:post.title' height='180' layout='responsive' width='300'/>
-<b:else/>
-<amp-img expr:alt='data:post.title' expr:title='data:post.title' height='180' layout='responsive' src='https://cdn.rawgit.com/joebloggss/amp/master/zamp1.png' width='300'/>
-    </b:if>
-    <b:if cond='data:showPostTitle and data:postTitle != &quot;&quot;'>
-      <h3><a expr:href='data:postUrl'><data:postTitle/></a></h3>
-    </b:if>
-    <b:if cond='data:showSnippet and data:postSummary != &quot;&quot;'>
-      <p>
-        <data:postSummary/>
-      </p>
-    </b:if>
+  <div class='widget-content'>
+    <data:content/>
   </div>
 </b:includable>
           </b:widget>
-          <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts' version='1' visible='true'>
+          <b:widget id='HTML6' locked='false' title='Advertise' type='HTML' version='1' visible='true'>
             <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
-  <div class='widget-content popular-posts'>
-    <ul>
-      <b:loop values='data:posts' var='post'>
-      <li>
-        <b:if cond='!data:showThumbnails'>
-          <b:if cond='!data:showSnippets'>
-            <!-- (1) No snippet/thumbnail -->
-            <a expr:href='data:post.href'><data:post.title/></a>
-          <b:else/>
-            <!-- (2) Show only snippets -->
-            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
-            <div class='item-snippet'><data:post.snippet/></div>
-          </b:if>
-        <b:else/>
-          <!-- (3) Show only thumbnails or (4) Snippets and thumbnails. -->
-          <div expr:class='data:showSnippets ? &quot;item-content&quot; : &quot;item-thumbnail-only&quot;'>
-            <b:if cond='data:post.featuredImage.isResizable or data:post.thumbnail'>
-              <div class='item-thumbnail'>
-                <a expr:href='data:post.href' target='_blank'>
-                  <b:with value='data:post.featuredImage.isResizable? resizeImage(data:post.featuredImage, 100) : data:post.thumbnail' var='image'>
-                    <amp-img expr:alt='data:post.title' expr:src='data:image' expr:title='data:post.title' height='70' width='100'/> 
-                  </b:with>
-                </a>
-              </div>
-              <b:else/>
-              <div class='item-thumbnail'>
-                <a expr:href='data:post.href' target='_blank'>
-              <amp-img expr:alt='data:post.title' expr:title='data:post.title' height='70' src='https://cdn.rawgit.com/joebloggss/amp/master/zamp1.png' width='100'/>
-                </a>
-              </div>
-            </b:if>
-            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
-            <b:if cond='data:showSnippets'>
-              <div class='item-snippet'><data:post.snippet/></div>
-            </b:if>
-          </div>
-          <div class='clear'/>
-        </b:if>
-      </li>
-      </b:loop>
-    </ul>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
   </div>
 </b:includable>
           </b:widget>
@@ -5595,17 +5562,6 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
   </div>
 </b:includable>
           </b:widget>
-          <b:widget id='HTML5' locked='false' title='' type='HTML' version='1' visible='true'>
-            <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-</b:includable>
-          </b:widget>
         </b:section>
       </div>
 <div class='clear'/>
@@ -5623,7 +5579,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
 <div id='footer-wrapper'>
 <div class='content-wrapper'>
 <b:section class='footer' id='footer1' preferred='yes'>
-  <b:widget id='HTML1' locked='false' title='' type='HTML' version='1' visible='true'>
+  <b:widget id='HTML1' locked='false' title='Description' type='HTML' version='1' visible='true'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -5636,7 +5592,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
   </b:widget>
 </b:section>
 <b:section class='footer' id='footer2' preferred='yes'>
-  <b:widget id='HTML2' locked='false' title='' type='HTML' version='1' visible='true'>
+  <b:widget id='HTML2' locked='false' title='Address' type='HTML' version='1' visible='true'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -5649,7 +5605,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
   </b:widget>
 </b:section>
 <b:section class='footer' id='footer3' preferred='yes'>
-  <b:widget id='HTML3' locked='false' title='' type='HTML' version='1' visible='true'>
+  <b:widget id='HTML3' locked='false' title='Phone' type='HTML' version='1' visible='true'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -5662,7 +5618,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
   </b:widget>
 </b:section>
 <b:section class='footer' id='footer4' preferred='yes'>
-  <b:widget id='HTML4' locked='false' title='' type='HTML' version='1' visible='true'>
+  <b:widget id='HTML4' locked='false' title='Map' type='HTML' version='1' visible='true'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -5682,7 +5638,7 @@ html::after{content:"";background:radial-gradient(circle,rgba(0,0,0,0),rgba(0,0,
 <div class='content-wrapper'>
 <div class='credit'>
 Copyright &#169; <span itemprop='copyrightYear'>2016</span> <span itemprop='copyrightHolder' itemscope='itemscope' itemtype='https://schema.org/Organization'><a expr:href='data:blog.homepageUrl' expr:title='data:blog.title' itemprop='url'><span itemprop='name'><data:blog.title/></span></a></span>
-<div class='credit-right'>Created by <a href='/' title='Accelerated Mobile Pages (AMP)'>Accelerated Mobile Pages (AMP)</a> Proudly powered by <a href='//www.blogger.com' title='Blogger'>Blogger</a></div>
+<div class='credit-right'><amp-img alt='Logo Footer' height='30' src='https://cdn.rawgit.com/joebloggss/amp/master/zamp1.png' title='Logo Footer' width='30'/> <a href='https://www.ampproject.org/' title='Accelerated Mobile Pages Project'>Accelerated Mobile Pages Project</a> powered by <a href='//www.blogger.com' title='Blogger'>Blogger</a></div>
 <div class='clear'/>
 </div>
 </div>
